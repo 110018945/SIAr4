@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="spittr.web.SpittleControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-03T09:40:50" hostname="FSEUKSAPK1K27XL" time="0.13">
+  <properties/>
+  <testcase name="testSpittle" classname="spittr.web.SpittleControllerTest" time="0.054"/>
+  <testcase name="shouldShowPagesSpittles" classname="spittr.web.SpittleControllerTest" time="0.076"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/spittles],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<spittr.Spittle> spittr.web.SpittleController.spittles(long,int)
+Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/spittles/{spittleId}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String spittr.web.SpittleController.spittle(long,org.springframework.ui.Model)
+Apr 03, 2016 10:40:50 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/spittles],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<spittr.Spittle> spittr.web.SpittleController.spittles(long,int)
+Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/spittles/{spittleId}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String spittr.web.SpittleController.spittle(long,org.springframework.ui.Model)
+Apr 03, 2016 10:40:50 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+]]></system-err>
+</testsuite>

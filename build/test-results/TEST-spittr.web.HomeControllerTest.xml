@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="spittr.web.HomeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-03T09:40:49" hostname="FSEUKSAPK1K27XL" time="0.796">
+  <properties/>
+  <testcase name="testHomePage" classname="spittr.web.HomeControllerTest" time="0.796"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 03, 2016 10:40:49 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String spittr.web.HomeController.home()
+Apr 03, 2016 10:40:50 AM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 5.0.1.Final
+Apr 03, 2016 10:40:50 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+Apr 03, 2016 10:40:50 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 3 ms
+]]></system-err>
+</testsuite>
